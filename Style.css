@@ -1,0 +1,1367 @@
+body{
+    background-color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+video::-webkit-media-controls {
+    display: none;
+}
+
+
+#top-row{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+#top-row .basket-icon{
+    width: 18px;
+    margin-left: 50px;
+    margin-top: 7px;
+    opacity: 70%;
+    margin-right: 850px;
+    vertical-align: middle;
+}
+
+#top-row .op {
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-family: "Radio Canada Big", sans-serif;
+    opacity: 100%;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#top-row .op:hover{
+    opacity: 70%;
+}
+
+#top-row .line {
+    display: inline-block;
+    margin-top: 9px;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-family: "Radio Canada Big", sans-serif;
+    opacity: 80%;
+    font-size: 13px;
+}
+
+#navrow {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+#navrow .nike-logo{
+    width: 70px;
+    margin-left: 50px;
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-right: 160px;
+}
+
+
+#navrow #text{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: 12px;
+}
+
+#navrow .search-icon{
+    width:20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 56px;
+    opacity: 50%;
+}
+
+#navrow .search-input {
+    width: 150px;
+    margin-left: 45px;
+    vertical-align: middle;
+    margin-top: 11px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 40px;
+    font-size: 17px;
+    background-color: rgb(245, 243, 243);
+}
+
+#navrow .heart-icon{
+    width: 23px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+#navrow .cart-icon{
+    width: 23px;
+    margin-left: 15px;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+#salebar{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.055);
+    padding-top: 15px;
+}
+
+#salebar .ht{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 500px;
+}
+
+#salebar .st{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 14px;
+    margin-left: 540px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+#top1-vid{
+    width: 100%;
+    height: 650px;
+    margin: 0;
+}
+
+.top3-text{
+    font-family: "Anton", sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+.top3s-text{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 16px;
+    margin-left: 470px;
+}
+
+.shop-button{
+    background-color: black;
+    border: none;
+    width: 74px;
+    height: 40px;
+    color: white;
+    border-radius: 50px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 570px;
+    cursor: pointer;
+}
+
+.shop-button:hover{
+    opacity: 60%;
+}
+
+#product-list1-bar{
+    margin-top: 60px;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+}
+
+#product-list1-bar .name{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    margin-left: 50px;
+    vertical-align: middle;
+    padding-top: 16px;
+    display: inline-block;
+}
+
+#product-list1-bar .left1-button{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-top: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(236, 236, 236);
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.342);
+    margin-left: 950px;
+    cursor: pointer;
+}
+
+#product-list1-bar .right1-button{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-top: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(206, 206, 206);
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.479);
+    cursor: pointer;
+}
+
+#product-list1-bar .right1-button:hover{
+    background-color: rgb(153, 153, 153);
+}
+
+#product1-list{
+    margin-top: 20px;
+    display: flex;
+    overflow-x: auto;
+}
+#product1-list{
+    overflow-x: hidden;
+}
+
+#product1-list .box1{
+    margin-left: 50px;
+}
+#product1-list .box1 .product-img{
+    width: 100%px;
+    height: 440px;
+    background-image: url("/Nike-Website-clone/image/row1.png");
+}
+#product1-list .box1 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 20px;
+}
+#product1-list .box1 .learn{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+
+
+#product1-list .box2{
+    margin-left: 10px;
+}
+#product1-list .box2 .product-img{
+    width: 100%;
+    height: 440px;
+    background-image: url("/Nike-Website-clone/image/row2.png");
+    margin-bottom: 0px;
+}
+#product1-list .box2 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 20px;
+}
+#product1-list .box2 .explore{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+
+#product1-list .box3{
+    margin-left: 10px;
+}
+#product1-list .box3 .product-img{
+    width: 100%;
+    height: 440px;
+    background-image: url("/Nike-Website-clone/image/row3.png");
+    margin-bottom: 0px;
+}
+#product1-list .box3 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 20px;
+}
+#product1-list .box3 .shop{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+
+
+#product1-list .box4{
+    margin-left: 10px;
+}
+#product1-list .box4 .product-img{
+    width: 100%;
+    height: 440px;
+    background-image: url("/Nike-Website-clone/image/row4.png");
+    margin-bottom: 0px;
+}
+#product1-list .box4 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 20px;
+}
+#product1-list .box4 .shop{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+
+
+#product1-list .box5{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+#product1-list .box5 .product-img{
+    width: 100%;
+    height: 440px;
+    background-image: url("/Nike-Website-clone/image/row5.png");
+    margin-bottom: 0px;
+}
+#product1-list .box5 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 20px;
+}
+#product1-list .box5 .shop{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+
+
+#product1-list #box{
+    min-width: 360px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+}
+
+#product1-list:hover{
+    overflow-x: scroll;
+}
+
+
+
+#product-list2-bar{
+    margin-top: 60px;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+}
+
+#product-list2-bar .name{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    margin-left: 50px;
+    vertical-align: middle;
+    padding-top: 16px;
+    display: inline-block;
+}
+
+#product-list2-bar .left2-button{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-top: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(236, 236, 236);
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.342);
+    margin-left: 840px;
+    cursor: pointer;
+}
+
+#product-list2-bar .right2-button{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-top: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(206, 206, 206);
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.479);
+    cursor: pointer;
+}
+
+#product-list2-bar .right2-button:hover{
+    background-color: rgb(153, 153, 153);
+}
+
+#product2-list{
+    margin-top: 20px;
+    display: flex;
+    overflow-x: auto;
+}
+#product2-list{
+    overflow-x: hidden;
+}
+
+#product2-list .box1{
+    margin-left: 50px;
+}
+#product2-list .box1 .product-img{
+    width: 100%px;
+    height: 350px;
+    background-image: url("/Nike-Website-clone/image/s1.png");
+}
+#product2-list .box1 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+}
+#product2-list .box1 .object{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    opacity: 90%;
+}
+
+#product2-list .box1 .price{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#product2-list .box2{
+    margin-left: 10px;
+}
+#product2-list .box2 .product-img{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Nike-Website-clone/image/s2.png");
+    margin-bottom: 0px;
+}
+#product2-list .box2 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+}
+#product2-list .box2 .object{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    opacity: 90%;
+}
+
+#product2-list .box2 .price{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#product2-list .box3{
+    margin-left: 10px;
+}
+#product2-list .box3 .product-img{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Nike-Website-clone/image/s3.png");
+    margin-bottom: 0px;
+}
+#product2-list .box3 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+}
+#product2-list .box3 .object{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    opacity: 90%;
+}
+
+#product2-list .box3 .price{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+#product2-list .box4{
+    margin-left: 10px;
+}
+#product2-list .box4 .product-img{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Nike-Website-clone/image/s4.png");
+    margin-bottom: 0px;
+}
+#product2-list .box4 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+}
+#product2-list .box4 .object{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    opacity: 90%;
+}
+
+#product2-list .box4 .price{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#product2-list .box5{
+    margin-left: 10px;
+}
+#product2-list .box5 .product-img{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Nike-Website-clone/image/s5.png");
+    margin-bottom: 0px;
+}
+#product2-list .box5 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+}
+#product2-list .box5 .object{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    opacity: 90%;
+}
+
+#product2-list .box5 .price{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#product2-list .box6{
+    margin-left: 10px;
+}
+#product2-list .box6 .product-img{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Nike-Website-clone/image/s6.png");
+    margin-bottom: 0px;
+}
+#product2-list .box6 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+}
+#product2-list .box6 .object{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    opacity: 90%;
+}
+
+#product2-list .box6 .price{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#product2-list .box7{
+    margin-left: 10px;
+}
+#product2-list .box7 .product-img{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Nike-Website-clone/image/s7.png");
+    margin-bottom: 0px;
+}
+#product2-list .box7 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+}
+#product2-list .box7 .object{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    opacity: 90%;
+}
+
+#product2-list .box7 .price{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+#product2-list .box8{
+    margin-left: 10px;
+}
+#product2-list .box8 .product-img{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Nike-Website-clone/image/s8.png");
+    margin-bottom: 0px;
+}
+#product2-list .box8 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+}
+#product2-list .box8 .object{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    opacity: 90%;
+}
+
+#product2-list .box8 .price{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+#product2-list .box9{
+    margin-left: 10px;
+}
+#product2-list .box9 .product-img{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Nike-Website-clone/image/s9.png");
+    margin-bottom: 0px;
+}
+#product2-list .box9 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+}
+#product2-list .box9 .object{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    opacity: 90%;
+}
+
+#product2-list .box9 .price{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#product2-list .box10{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+#product2-list .box10 .product-img{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Nike-Website-clone/image/s10.png");
+    margin-bottom: 0px;
+}
+#product2-list .box10 .p-name{
+    margin-top: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+}
+#product2-list .box10 .object{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    opacity: 90%;
+}
+
+#product2-list .box10 .price{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#product2-list #box{
+    min-width: 360px;
+    height: 480px;
+    background-color: rgb(255, 255, 255);
+}
+
+#product2-list:hover{
+    overflow-x: scroll;
+}
+
+#product-list3-bar{
+    margin-top: 90px;
+}
+
+#product-list3-bar .name{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    margin-left: 50px;
+    vertical-align: middle;
+    padding-top: 16px;
+    display: inline-block;
+}
+
+#ad1{
+    width: 1170px;
+    margin-top: 25px;
+    height: 380px;
+    margin-left: 50px;
+}
+
+.ad1-t1{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-left: 550px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.ad1-t2{
+    font-family: "Anton", sans-serif;
+    font-size: 74px;
+    margin-top: 1px;
+    margin-left: 300px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+.ad1-t3{
+    font-family: "Anton", sans-serif;
+    font-size: 74px;
+    margin-top: 1px;
+    margin-left: 510px;
+    padding-top: 0px;
+}
+
+.ad1-t4{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-left: 510px;
+    margin-bottom: 0px;
+}
+
+.ad-btn-shop{
+    width: 70px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 600px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.ad-btn-shop:hover{
+    opacity: 70%;
+}
+
+#product-list3-bar{
+    margin-top: 60px;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+}
+
+#product-list3-bar .name{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    margin-left: 50px;
+    vertical-align: middle;
+    padding-top: 16px;
+    display: inline-block;
+}
+
+#product-list3-bar .left3-button{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-top: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(236, 236, 236);
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.342);
+    margin-left: 880px;
+    cursor: pointer;
+}
+
+#product-list3-bar .right3-button{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-top: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(206, 206, 206);
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.479);
+    cursor: pointer;
+}
+
+#product-list2-bar .right2-button:hover{
+    background-color: rgb(153, 153, 153);
+}
+
+
+
+#product3-list{
+    margin-top: 20px;
+    display: flex;
+    overflow-x: auto;
+}
+#product3-list{
+    overflow-x: hidden;
+}
+
+#product3-list .box1{
+    margin-left: 50px;
+}
+#product3-list .box1 .product-img{
+    width: 100%px;
+    height: 290px;
+    background-image: url("/Nike-Website-clone/image/m1.png");
+}
+
+#product3-list .box2{
+    margin-left: 10px;
+}
+#product3-list .box2 .product-img{
+    width: 100%;
+    height: 290px;
+    background-image: url("/Nike-Website-clone/image/m2.png");
+    margin-bottom: 0px;
+}
+
+
+#product3-list .box3{
+    margin-left: 10px;
+}
+#product3-list .box3 .product-img{
+    width: 100%;
+    height: 290px;
+    background-image: url("/Nike-Website-clone/image/m3.png");
+    margin-bottom: 0px;
+}
+
+
+#product3-list .box4{
+    margin-left: 10px;
+}
+#product3-list .box4 .product-img{
+    width: 100%;
+    height: 290px;
+    background-image: url("/Nike-Website-clone/image/m4.png");
+    margin-bottom: 0px;
+}
+
+#product3-list .box5{
+    margin-left: 10px;
+}
+#product3-list .box5 .product-img{
+    width: 100%;
+    height: 290px;
+    background-image: url("/Nike-Website-clone/image/m5.png");
+    margin-bottom: 0px;
+}
+
+#product3-list .box6{
+    margin-left: 10px;
+}
+#product3-list .box6 .product-img{
+    width: 100%;
+    height: 290px;
+    background-image: url("/Nike-Website-clone/image/m61.png");
+    margin-bottom: 0px;
+}
+
+#product3-list .box7{
+    margin-left: 10px;
+}
+#product3-list .box7 .product-img{
+    width: 100%;
+    height: 290px;
+    background-image: url("/Nike-Website-clone/image/m6.png");
+    margin-bottom: 0px;
+}
+
+#product3-list .box8{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+#product3-list .box8 .product-img{
+    width: 100%;
+    height: 290px;
+    background-image: url("/Nike-Website-clone/image/m7.png");
+    margin-bottom: 0px;
+}
+
+
+#product3-list #box{
+    min-width: 430px;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+}
+
+#product3-list:hover{
+    overflow-x: scroll;
+}
+
+.ad2-text{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 26px;
+    margin-left: 50px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.ad2{
+    margin-left: 50px;
+    width: 1160px;
+    height: 600px;
+}
+
+
+
+#ad2{
+    width: 1170px;
+    margin-top: 25px;
+    height: 380px;
+    margin-left: 50px;
+}
+
+.ad2-t1{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-left: 600px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.ad2-t2{
+    font-family: "Anton", sans-serif;
+    font-size: 74px;
+    margin-top: 1px;
+    margin-left: 480px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+.ad2-t3{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+}
+.ad2-t4{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    margin-left: 430px;
+    margin-bottom: 0px;
+}
+
+.ad2-btn-shop{
+    width: 70px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 600px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.ad2-btn-shop:hover{
+    opacity: 70%;
+}
+
+
+
+
+#product-list4-bar{
+    margin-top: 60px;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+}
+
+#product-list4-bar .name{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    margin-left: 50px;
+    vertical-align: middle;
+    padding-top: 16px;
+    display: inline-block;
+}
+
+#product-list4-bar .left4-button{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-top: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(236, 236, 236);
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.342);
+    margin-left: 860px;
+    cursor: pointer;
+}
+
+#product-list4-bar .right4-button{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-top: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(206, 206, 206);
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.479);
+    cursor: pointer;
+}
+
+#product-list4-bar .right4-button:hover{
+    background-color: rgb(153, 153, 153);
+}
+
+
+#product4-list{
+    margin-top: 20px;
+    display: flex;
+    overflow-x: auto;
+}
+#product4-list{
+    overflow-x: hidden;
+}
+
+#product4-list .box1{
+    margin-left: 50px;
+}
+#product4-list .box1 .product-img{
+    width: 100%px;
+    height: 450px;
+    background-image: url("/Nike-Website-clone/image/l1.png");
+}
+
+#product4-list .box2{
+    margin-left: 10px;
+}
+#product4-list .box2 .product-img{
+    width: 100%;
+    height: 450px;
+    background-image: url("/Nike-Website-clone/image/l2.png");
+    margin-bottom: 0px;
+}
+
+
+#product4-list .box3{
+    margin-left: 10px;
+}
+#product4-list .box3 .product-img{
+    width: 100%;
+    height: 450px;
+    background-image: url("/Nike-Website-clone/image/l3.png");
+    margin-bottom: 0px;
+}
+
+
+#product4-list .box4{
+    margin-left: 10px;
+}
+#product4-list .box4 .product-img{
+    width: 100%;
+    height: 450px;
+    background-image: url("/Nike-Website-clone/image/l4.png");
+    margin-bottom: 0px;
+}
+
+#product4-list .box5{
+    margin-left: 10px;
+}
+#product4-list .box5 .product-img{
+    width: 100%;
+    height: 450px;
+    background-image: url("/Nike-Website-clone/image/l5.png");
+    margin-bottom: 0px;
+}
+
+#product4-list .box6{
+    margin-left: 10px;
+}
+#product4-list .box6 .product-img{
+    width: 100%;
+    height: 450px;
+    background-image: url("/Nike-Website-clone/image/l6.png");
+    margin-bottom: 0px;
+}
+
+#product4-list #box{
+    min-width: 390px;
+    height: 510px;
+    background-color: rgb(255, 255, 255);
+}
+
+#product4-list:hover{
+    overflow-x: scroll;
+}
+
+
+#lower{
+    background-color: rgb(255, 255, 255);
+    width: 980px;
+    height: 430px;
+    margin-left: 210px;
+}
+#lower .lower1{
+    display: inline-block;
+}
+#lower .lower1 .col1 .title{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 22px;
+    opacity: 90%;
+
+}
+#lower .lower1 .col1 #f-o{
+    margin-top: 30px;
+}
+#lower .lower1 .col1 .option{
+    margin-top: 20px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+
+#lower .lower2{
+    display: inline-block;
+    margin-left: 80px;
+    vertical-align: top;
+}
+#lower .lower2 .col1 .title{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 22px;
+    opacity: 90%;
+
+}
+#lower .lower2 .col1 #f-o{
+    margin-top: 30px;
+}
+#lower .lower2 .col1 .option{
+    margin-top: 20px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+
+
+#lower .lower3{
+    display: inline-block;
+    margin-left: 80px;
+    vertical-align: top;
+}
+#lower .lower3 .col1 .title{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 22px;
+    opacity: 90%;
+
+}
+#lower .lower3 .col1 #f-o{
+    margin-top: 30px;
+}
+#lower .lower3 .col1 .option{
+    margin-top: 20px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+#lower .lower4{
+    display: inline-block;
+    margin-left: 80px;
+    vertical-align: top;
+}
+#lower .lower4 .col1 .title{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 22px;
+    opacity: 90%;
+
+}
+#lower .lower4 .col1 #f-o{
+    margin-top: 30px;
+}
+#lower .lower4 .col1 .option{
+    margin-top: 20px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 18px;
+    opacity: 70%;
+}
+#lower2{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+#lower2 .line{
+    margin-top: 80px;
+    background-color: rgba(112, 112, 112, 0.466);
+    width: 90%;
+    height: 1px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+#lower2 .col1{
+    margin-left: 60px;
+    background-color: rgb(255, 255, 255);
+    height: 330px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#lower2 .col1 .name{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    opacity: 100%;
+    margin-bottom: 40px;
+}
+
+
+#lower2 .col1 .option{
+    margin-top: 20px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 15px;
+    opacity: 80%;
+}
+
+
+#lower2 .col2{
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 330px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#lower2 .col2 .name{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    opacity: 100%;
+    margin-bottom: 40px;
+}
+
+
+#lower2 .col2 .option{
+    margin-top: 20px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 15px;
+    opacity: 80%;
+}
+
+
+
+#lower2 .col3{
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 330px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#lower2 .col3 .name{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 17px;
+    opacity: 100%;
+    margin-bottom: 40px;
+}
+
+
+#lower2 .col3 .option{
+    margin-top: 20px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 15px;
+    opacity: 80%;
+}
+
+#lower2 .location {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Radio Canada Big", sans-serif;
+    opacity: 70%;
+    margin-left: 130px;
+}
+
+.last-op{
+    font-family:  "Radio Canada Big", sans-serif;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 60px;
+    opacity: 60%;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+.last-op:hover{
+    opacity: 100%;
+}
